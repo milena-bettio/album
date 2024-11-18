@@ -1,0 +1,49 @@
+header {
+    height: 200px;
+    background-color: antiquewhite;
+}
+.hero {
+    min-height: 500px;
+    background-color: bisque;
+    color: aliceblue;
+}
+/* .intro, .single {
+    max-width: 900px;
+    margin: auto;
+} */
+.centered-content {
+    max-width: 1200px;
+    margin: auto;
+}
+.intro {
+    background-color: brown;
+}
+.single {
+    background-color: blue;
+    display: flex;
+}
+.single img{
+    width:300px;
+}
+.song-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card {
+    /* display: flex; */
+}
+card img {
+    width: 300px;
+    background-color: aqua;
+}
+.reversed-card {
+    flex-direction: row-reverse;
+}
+.tracks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
