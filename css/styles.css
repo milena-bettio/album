@@ -9,13 +9,13 @@ html {
     padding: 0;
 }
 header {
-    height: 250px;
+    height: 200px;
     background-color: rgb(200, 126, 30);
     position: fixed;
     width: 100%;
 }
 .hero {
-    min-height: 500px;
+    min-height: 800px;
     background-color: bisque;
     color: aliceblue;
 }
