@@ -33,6 +33,7 @@ nav {
     margin: 2px;
     height:53.2px;
     width: 100%;
+    position: absolute;
 }
 nav li {
     list-style-type: none;
