@@ -10,7 +10,7 @@ html {
 }
 header {
     height: 400px;
-    background-color: antiquewhite;
+    background-color: rgb(197, 115, 9);
     position: fixed;
     width: 100%;
 }
