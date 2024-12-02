@@ -53,3 +53,19 @@ card img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.footer {
+    background-color: black;
+    font-size: 16px;
+    height: 100px;
+}
+.footer a{
+    color: white;
+    padding: 50px;   
+}
+.footer a:hover{
+    color: #f1e23e;
+}
+.footer ul{
+    padding-top: 40px;
+}
