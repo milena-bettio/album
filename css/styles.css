@@ -26,8 +26,21 @@ header {
 
 header ul {
     display: flex;
-    justify-content: flex end;
+    align-items: space-evenly;
+    justify-content: space-evenly
 }
+
+header li {
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+nav a {
+    color: white;
+
+}
+
+
 
 
 
