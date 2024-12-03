@@ -8,12 +8,24 @@ html {
     margin: 0;
     padding: 0;
 }
+
+.centered-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
 header {
     height: 200px;
     background-color: rgb(200, 126, 30);
     position: fixed;
     width: 100%;
 }
+
+
+
 .hero {
     background-image: url(../assets/hero-background.jpg);
     min-height: 800px;
@@ -24,13 +36,31 @@ header {
     max-width: 900px;
     margin: auto;
 } */
-.centered-content {
-    max-width: 1200px;
-    margin: auto;
+
+
+nav ul {
+    display: flex;
+    align-items: flex-end
+    justify-content: flex-end;
+}
+nav {
+    background-color: rgb(0, 0, 0);
+}
+
+nav li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: #f1e23e  
 }
 
 
-    
+
+
 
 .intro {
     background-color: brown;
