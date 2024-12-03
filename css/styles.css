@@ -55,9 +55,13 @@ header a:hover {
 
 
 .hero {
-    background-image: url(../assets/hero-background.jpg);
+    background-image: url(../assets/HollowSparrowHeader.jpg);
     min-height: 800px;
-    background-color: bisque;
+    background-size: cover;
+    width: 100%;
+}
+.hero h1{
+    font-size: 100px;
     color: aliceblue;
 }
 /* .intro, .single {
