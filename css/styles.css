@@ -1,6 +1,6 @@
 
 html {
-    --accent-colour:(#faf8be);
+    --accent-colour:(#f1e23e);
 }
 *{
     margin: 0;
@@ -12,7 +12,7 @@ html {
     margin: auto;
 }
 
-
+   
 
 
 header {
@@ -37,10 +37,11 @@ header li {
 header a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 header a:hover {
-    color: var(--accent-colour);
+    color: var(--accent-colour)
 }
 
 
@@ -131,7 +132,7 @@ card img {
 }
 
 .footer {
-    background-color: black;
+    background-color: #7a9d3a;
     font-size: 16px;
     height: 100px;
     width: 100%;
@@ -141,7 +142,7 @@ card img {
     padding: 50px;   
 }
 .footer a:hover{
-    color: #f1e23e;
+    color: #fffb00;
 }
 .footer ul{
     padding-top: 40px;
