@@ -12,7 +12,10 @@ html {
     margin: auto;
 }
 
-   
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+}
 
 
 header {
@@ -41,7 +44,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--accent-colour)
+    color: #193403;
 }
 
 
@@ -142,7 +145,7 @@ card img {
     padding: 50px;   
 }
 .footer a:hover{
-    color: #fffb00;
+    color: #193403;
 }
 .footer ul{
     padding-top: 40px;
