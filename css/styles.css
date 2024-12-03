@@ -1,8 +1,6 @@
 
 html {
-    --accent-colour:(19,1 15, 41);
-
-    var(--accent-colour):
+    --accent-colour:(#f7f5bd);
 }
 *{
     margin: 0;
@@ -37,7 +35,10 @@ header li {
 
 nav a {
     color: white;
+}
 
+nav a:hover {
+    color: var(--accent-colour);
 }
 
 
