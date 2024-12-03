@@ -19,9 +19,14 @@ html {
 
 header {
     height: 200px;
-    background-color: rgb(200, 126, 30);
+    background-color: #7a9d3a; 
     position: fixed;
     width: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex end;
 }
 
 
@@ -38,7 +43,7 @@ header {
 } */
 
 
-nav ul {
+/* nav ul {
     display: flex;
     align-items: flex-end
     justify-content: flex-end;
@@ -56,7 +61,7 @@ nav a {
 }
 nav a:hover {
     color: #f1e23e  
-}
+} */
 
 
 
