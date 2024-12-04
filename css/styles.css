@@ -8,7 +8,7 @@ html {
 }
 
 .centered-content {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -24,7 +24,9 @@ header {
     height: 100px;
     background-color: #7a9d3a; 
     position: fixed;
-    width: 100%;
+    width: 80%;
+    border: 100px;
+
 }
 
 header ul {
@@ -60,6 +62,7 @@ header a:hover {
     border-radius: 80px; */
     padding-top: 600px;
     /* color: white; */
+
 }
 
 .tagline {
@@ -69,11 +72,12 @@ header a:hover {
 
 .hero-heading, .tagline {
     display: flex;  
-    justify-content: center;
+    justify-content: flex-end;
     text-shadow: 0 0 20px #000000;
     padding: 80px;
     border-radius: 80px;
     color: white;
+
 }
 
 
@@ -86,7 +90,7 @@ header a:hover {
 .hero {
     background-image: url(../assets/HollowSparrowHeader.jpg);
     background-size: cover;
-    width: 80%;
+    width: 100%;
     margin:auto;
     display:flex;
     flex-direction: column;
@@ -94,6 +98,7 @@ header a:hover {
     justify-content:space-evenly;
     background-position: 0 75; 
     padding-top: 100px;
+    padding-bottom: 300px;
 }
 
 
