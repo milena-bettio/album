@@ -12,6 +12,10 @@ html {
     margin: auto;
 }
 
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .logo {
     max-width: 80px;
     max-height: 80px;
@@ -24,9 +28,7 @@ header {
     height: 100px;
     background-color: #7a9d3a; 
     position: fixed;
-    width: 80%;
-    border: 100px;
-
+    width: 100%;
 }
 
 header ul {
@@ -52,41 +54,6 @@ header a:hover {
     color: #193403;
 }
 
-
-.hero-heading {
-    font-size: 90px;
-    /* display: flex;  
-    justify-content: center;
-    text-shadow: 0 0 20px #000000;
-    padding: 80px;
-    border-radius: 80px; */
-    padding-top: 600px;
-    /* color: white; */
-
-}
-
-.tagline {
-    font-size: 20px;
-    padding-bottom: 80px;
-}
-
-.hero-heading, .tagline {
-    display: flex;  
-    justify-content: flex-end;
-    text-shadow: 0 0 20px #000000;
-    padding: 80px;
-    border-radius: 80px;
-    color: white;
-
-}
-
-
-.text {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-
 .hero {
     background-image: url(../assets/HollowSparrowHeader.jpg);
     background-size: cover;
@@ -97,9 +64,28 @@ header a:hover {
     align-items:center;
     justify-content:space-evenly;
     background-position: 0 75; 
-    padding-top: 100px;
-    padding-bottom: 300px;
+    padding-top: 90px;
 }
+
+.hero-heading, .tagline {
+    display: flex;  
+    justify-content: flex-end;
+    text-shadow: 0 0 20px #000000;
+    border-radius: 80px;
+    color: white;
+}
+.hero-heading {
+    font-size: 90px;
+    padding-top: 300px;
+}
+
+.tagline {
+    font-size: 20px;
+    padding-bottom: 180px;
+    padding-top: 50px;
+}
+
+
 
 
 
@@ -113,10 +99,13 @@ header a:hover {
 
 
 
-
-.intro {
-    background-color: brown;
+.page-heading {
+    font-size: 35px;
+    padding-top: 20px;
 }
+
+
+
 .single {
     background-color: blue;
     display: flex;
