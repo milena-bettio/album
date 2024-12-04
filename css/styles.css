@@ -59,6 +59,7 @@ header a:hover {
     padding: 80px;
     border-radius: 80px;
     padding-top: 500px;
+    color: white;
 }
 
 
@@ -72,10 +73,7 @@ header a:hover {
     background-size: cover;
     width: 100%;
 }
-.hero h1{
-    font-size: 100px;
-    color: aliceblue;
-}
+
 /* .intro, .single {
     max-width: 900px;
     margin: auto;
