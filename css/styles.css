@@ -53,12 +53,26 @@ header a:hover {
 
 .hero-heading {
     font-size: 90px;
+    /* display: flex;  
+    justify-content: center;
+    text-shadow: 0 0 20px #000000;
+    padding: 80px;
+    border-radius: 80px; */
+    padding-top: 600px;
+    /* color: white; */
+}
+
+.tagline {
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+.hero-heading, .tagline {
     display: flex;  
     justify-content: center;
     text-shadow: 0 0 20px #000000;
     padding: 80px;
     border-radius: 80px;
-    padding-top: 470px;
     color: white;
 }
 
@@ -69,10 +83,18 @@ header a:hover {
 
 .hero {
     background-image: url(../assets/HollowSparrowHeader.jpg);
-    min-height: 800px;
     background-size: cover;
-    width: 100%;
+    width: 80%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    background-position: 0 75; 
+    padding-top: 100px;
 }
+
+
 
 /* .intro, .single {
     max-width: 900px;
