@@ -1,7 +1,10 @@
 
 html {
     --accent-colour:(#f1e23e);
+    --main-colour:(#7a9d3a);
 }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +29,7 @@ html {
 
 header {
     height: 100px;
-    background-color: #7a9d3a; 
+    background-color:#7a9d3a;
     position: fixed;
     width: 100%;
 }
@@ -197,7 +200,7 @@ card img {
     padding-bottom: 75px;
 }
 .merchandise-card {
-    background-color:rgb(87, 155, 158);
+    background-color:#7a9d3a;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -213,6 +216,6 @@ card img {
 }
 .merchandise-card h3 {
     color: white;
-    text-shadow: 0 0 10px #000000;
+    text-shadow: 0 0 5px #000000;
 }
    
