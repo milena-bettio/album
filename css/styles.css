@@ -101,12 +101,20 @@ header a:hover {
 
 
 .intro-t {
-    padding-bottom: 50px;
+padding-bottom: 50px;
 }
 
 .tour-t {
-    padding: 50px;
-    
+    padding: 50px;   
+}
+
+
+  
+
+
+.song-content a:hover {
+    color: #7a9d3a;
+
 }
 
 
@@ -131,7 +139,7 @@ header a:hover {
 
 
 
-.grid-container {
+.previous-albums-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
@@ -139,8 +147,8 @@ header a:hover {
     margin: auto;
     padding-top: 40px;
 }
-.card {
-    background-color: rgb(68, 116, 118);
+.pa-card {
+    background-color: #f5f7d4;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -149,7 +157,7 @@ header a:hover {
     font-size: 17px;
     color: azure;
 }
-.card img {
+.pa-card img {
     background-color: rgb(233, 244, 244);
     width: 100%;
     height: 300px;
