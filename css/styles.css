@@ -16,6 +16,9 @@ html {
 
 .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 38px;
+    font-size: 20px;
+    color: #000000;
 }
 
 .logo {
@@ -98,8 +101,14 @@ header a:hover {
 
 
 .intro-t {
-    font-size: ;
+    padding-bottom: 50px;
 }
+
+.tour-t {
+    padding: 50px;
+    
+}
+
 
 
 
@@ -112,9 +121,10 @@ header a:hover {
 
 
 .single {
-    background-color: blue;
+    background-color:#f5f7d4;
     display: flex;
 }
+
 .single img{
     width:300px;
 }
@@ -182,7 +192,7 @@ card img {
 }
 .footer a{
     color: white;
-    padding: 50px;   
+    padding: 20px;   
 }
 .footer a:hover{
     color: #193403;
