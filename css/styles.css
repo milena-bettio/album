@@ -141,11 +141,12 @@ padding-bottom: 50px;
 
 .previous-albums-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     column-gap: 10px;
     max-width: 900px;
     margin: auto;
     padding-top: 40px;
+
 }
 .pa-card {
     background-color: #f5f7d4;
