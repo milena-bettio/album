@@ -249,3 +249,7 @@ card img {
     padding-bottom: 20px;
 }
 
+.tracks {
+    display: flex;
+}
+
