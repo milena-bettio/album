@@ -149,7 +149,6 @@ padding-bottom: 50px;
 
 }
 .pa-card {
-    background-color: #f5f7d4;
     min-height: 300px;
     min-width: 300px;
     display: flex;
@@ -158,12 +157,13 @@ padding-bottom: 50px;
     justify-content: space-evenly;
     font-size: 17px;
     color: azure;
+    padding-bottom: 50px;
+    padding-top: 90px;
 }
 .pa-card img {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    width: 100%;
 }
 
 
