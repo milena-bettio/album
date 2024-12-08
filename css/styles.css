@@ -4,7 +4,6 @@ html {
     --main-colour:(#7a9d3a);
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -98,7 +97,9 @@ header a:hover {
 } */
 
 
-
+.intro-t {
+    font-size: ;
+}
 
 
 
