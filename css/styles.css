@@ -185,9 +185,9 @@ card img {
     width: 300px;
     background-color: aqua;
 }
-.reversed-card {
+/* .reversed-card {
     flex-direction: row-reverse;
-}
+} */
 .tracks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -249,3 +249,20 @@ card img {
     padding-bottom: 20px;
 }
 
+
+.tracks-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.card-s {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
