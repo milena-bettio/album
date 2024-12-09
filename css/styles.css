@@ -131,7 +131,7 @@ padding-bottom: 50px;
 }
 
 .previous-albums-header {
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .previous-albums-container {
@@ -235,7 +235,7 @@ padding-bottom: 50px;
     row-gap: 30px;
     max-width: 900px;
     margin: auto;
-    padding-bottom: 75px;
+    padding-bottom: 55px;
     padding-top: 50px;
 }
 .card-s {
@@ -254,6 +254,9 @@ padding-bottom: 50px;
     justify-content: space-between;
 }
 
+.song-name {
+    color: #7a9d3a;
+}
 
 
 .previous-albums-container {
@@ -265,11 +268,3 @@ padding-bottom: 50px;
     padding-top: 35px;
 }
 
-.related-artwork {
-    background-color:#f5f7d4;
-    display: flex;
-}
-.related-artwork img {
-    max-width: 500px;
-    max-height: 500px;
-}
