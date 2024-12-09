@@ -145,8 +145,12 @@ padding-bottom: 50px;
     column-gap: 10px;
     max-width: 900px;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 5px;
 
+}
+
+.previous-albums-header {
+    padding-top: 30px;
 }
 .pa-card {
     min-height: 300px;
@@ -155,11 +159,9 @@ padding-bottom: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 17px;
-    color: azure;
     padding-bottom: 50px;
-    padding-top: 90px;
 }
+
 .pa-card img {
     width: 100%;
     object-fit: cover;
@@ -261,6 +263,24 @@ card img {
 }
 .card-s {
     min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tracks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.card-s {
+    background-color: #f5f7d4;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
