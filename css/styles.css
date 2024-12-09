@@ -1,6 +1,6 @@
 
 html {
-    --main-colour:(#7a9d3a);
+    --main-colour:#7a9d3a;
 }
 
 *{
@@ -29,7 +29,7 @@ html {
 
 header {
     height: 100px;
-    background-color:#7a9d3a;
+    background-color: var(--main-colour);
     position: fixed;
     width: 100%;
     z-index: 999999;
@@ -103,12 +103,13 @@ padding-bottom: 50px;
 }
 
 .tour-t {
-    padding: 50px;   
+    padding: 50px;  
+    color: #536b25; 
 }
 
 
 .song-content a:hover {
-    color: #7a9d3a;
+    color: var(--main-colour);
 
 }
 
@@ -167,7 +168,7 @@ padding-bottom: 50px;
 
 
 .footer {
-    background-color: #7a9d3a;
+    background-color: var(--main-colour);
     font-size: 16px;
     height: 100px;
     width: 100%;
@@ -193,7 +194,7 @@ padding-bottom: 50px;
     padding-bottom: 75px;
 }
 .merchandise-card {
-    background-color:#7a9d3a;
+    background-color: var(--main-colour);
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -255,7 +256,7 @@ padding-bottom: 50px;
 }
 
 .song-name {
-    color: #7a9d3a;
+    color: var(--main-colour);
 }
 
 
