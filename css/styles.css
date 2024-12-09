@@ -28,7 +28,6 @@ html {
     margin: 5px;
 }
 
-
 header {
     height: 100px;
     background-color:#7a9d3a;
@@ -92,14 +91,6 @@ header a:hover {
 
 
 
-
-
-/* .intro, .single {
-    max-width: 900px;
-    margin: auto;
-} */
-
-
 .intro-t {
 padding-bottom: 50px;
 }
@@ -109,15 +100,10 @@ padding-bottom: 50px;
 }
 
 
-  
-
-
 .song-content a:hover {
     color: #7a9d3a;
 
 }
-
-
 
 
 .page-heading {
@@ -137,7 +123,9 @@ padding-bottom: 50px;
     width:300px;
 }
 
-
+.previous-albums-header {
+    padding-top: 30px;
+}
 
 .previous-albums-container {
     display: grid;
@@ -149,9 +137,6 @@ padding-bottom: 50px;
 
 }
 
-.previous-albums-header {
-    padding-top: 30px;
-}
 .pa-card {
     min-height: 300px;
     min-width: 300px;
@@ -169,31 +154,10 @@ padding-bottom: 50px;
 }
 
 
-
-
-
-.song-content {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.card {
-    /* display: flex; */
-}
-card img {
-    width: 300px;
-    background-color: aqua;
-}
 /* .reversed-card {
     flex-direction: row-reverse;
 } */
-.tracks {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 .footer {
     background-color: #7a9d3a;
@@ -254,7 +218,7 @@ card img {
 
 .tracks-container {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 30px;
     max-width: 900px;
@@ -269,20 +233,10 @@ card img {
     justify-content: space-evenly;
 }
 
-.tracks-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 30px;
-    max-width: 900px;
-    margin: auto;
-    padding-bottom: 75px;
-}
-.card-s {
-    background-color: #f5f7d4;
-    min-height: 400px;
+
+.song-content {
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
