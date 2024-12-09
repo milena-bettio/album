@@ -1,6 +1,5 @@
 
 html {
-    --accent-colour:(#f1e23e);
     --main-colour:(#7a9d3a);
 }
 
@@ -230,7 +229,6 @@ padding-bottom: 50px;
 
 
 .tracks-container {
-    background-color:#f5f7d4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
@@ -238,6 +236,7 @@ padding-bottom: 50px;
     max-width: 900px;
     margin: auto;
     padding-bottom: 75px;
+    padding-top: 50px;
 }
 .card-s {
     min-height: 100px;
@@ -264,10 +263,13 @@ padding-bottom: 50px;
     max-width: 600px;
     margin: auto;
     padding-top: 35px;
-
 }
 
 .related-artwork {
     background-color:#f5f7d4;
     display: flex;
+}
+.related-artwork img {
+    max-width: 500px;
+    max-height: 500px;
 }
