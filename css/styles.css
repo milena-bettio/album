@@ -1,6 +1,19 @@
 
 html {
     --main-colour:#7a9d3a;
+    --accent-font:"buckley", sans-serif;
+}
+
+@font-face {
+    font-family:"pentz-classic";
+    src:url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+    }
+
+@font-face {
+font-family:"buckley";
+src:url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
 *{
@@ -19,6 +32,7 @@ html {
     font-size: 20px;
     color: #000000;
 }
+
 
 .logo {
     max-width: 80px;
@@ -76,19 +90,21 @@ header a:hover {
 .hero-heading, .tagline {
     display: flex;  
     justify-content: flex-end;
-    text-shadow: 0 0 20px #000000;
+    text-shadow: 0 0 05px #000000;
     border-radius: 80px;
     color: white;
 }
 .hero-heading {
-    font-size: 90px;
-    padding-top: 300px;
+    font-size: 110px;
+    padding-top: 310px;
+    font-family: "pentz-classic", serif;
 }
 
 .tagline {
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 180px;
     padding-top: 50px;
+    font-family: var(--accent-font);
 }
 
 audio {
@@ -117,6 +133,7 @@ padding-bottom: 50px;
     font-size: 35px;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family:var(--accent-font)
 }
 
 
@@ -132,6 +149,8 @@ padding-bottom: 50px;
 
 .previous-albums-header {
     padding-top: 80px;
+    font-family: var(--accent-font);
+    font-size: 30px;
 }
 
 .previous-albums-container {
@@ -252,19 +271,16 @@ padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family:var(--accent-font);
+    font-size: 30px;
 }
 
 .song-name {
     color: var(--main-colour);
+    font-family: var(--accent-font);
+    font-size: 25px;
 }
 
 
-.previous-albums-container {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    column-gap: 20px;
-    max-width: 600px;
-    margin: auto;
-    padding-top: 35px;
-}
+
 
