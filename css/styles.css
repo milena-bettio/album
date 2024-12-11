@@ -83,11 +83,11 @@ header a:hover {
     display: flex;  
     justify-content: flex-end;
     /* text-shadow: 0 0 60px #000000; */
-    /* border-radius: 60px; */
+    border-radius: 60px;
     color: white;
 }
 .hero-heading {
-    font-size: 110px;
+    font-size: 100px;
     padding-top: 310px;
     font-family: "pentz-classic", serif;
 }
