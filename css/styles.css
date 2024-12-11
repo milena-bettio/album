@@ -156,7 +156,7 @@ padding-bottom: 50px;
 }
 
 .previous-albums-header {
-    padding-top: 80px;
+    padding-top: 50px;
     font-family: var(--accent-font);
     font-size: 30px;
 }
@@ -298,5 +298,12 @@ padding-bottom: 50px;
     padding-bottom: 10px;
 }
 
+.album-d {
+    background-color: var(--accent-colour);
+    padding: 20px;
+    font-family: var(--accent-font);
+    font-size: 30px;
+    line-height: 45px;
+}
 
 
