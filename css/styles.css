@@ -170,6 +170,12 @@ padding-bottom: 50px;
     padding-top: 25px;
 }
 
+.pa-button {
+    padding: 5px;
+    font: var(--accent-font);
+    margin: 20px;
+}
+
 .pa-card {
     min-height: 300px;
     min-width: 300px;
