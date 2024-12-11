@@ -1,6 +1,7 @@
 
 html {
     --main-colour:#7a9d3a;
+    --accent-colour:#f5f7d4;
     --accent-font:"buckley", sans-serif;
 }
 
@@ -146,7 +147,7 @@ padding-bottom: 50px;
 
 
 .single {
-    background-color:#f5f7d4;
+    background-color: var(--accent-colour);
     display: flex;
 }
 
@@ -165,7 +166,7 @@ padding-bottom: 50px;
     grid-template-columns: 2fr 2fr;
     column-gap: 20px;
     max-width: 600px;
-    /* margin: auto; */
+    margin: auto;
     padding-top: 25px;
 
 }
@@ -181,7 +182,7 @@ padding-bottom: 50px;
 }
 
 .pa-card img {
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -216,7 +217,7 @@ padding-bottom: 50px;
     row-gap: 30px;
     max-width: 900px;
     margin: auto;
-    padding-bottom: 75px;
+    padding-bottom: 45px;
 }
 .merchandise-card {
     background-color: var(--main-colour);
@@ -286,6 +287,12 @@ padding-bottom: 50px;
     color: var(--main-colour);
     font-family: var(--accent-font);
     font-size: 25px;
+}
+
+.album-d {
+    background-color: var(--accent-colour);
+    padding: 20px;
+    color: rgb(0, 0, 0);
 }
 
 
