@@ -144,6 +144,7 @@ audio {
     padding: 5px;
     font: var(--accent-font);
     margin: 20px;
+    color: var(--main-colour);
 }
 .pa-card {
     min-height: 300px;
