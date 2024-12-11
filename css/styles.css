@@ -91,7 +91,7 @@ header a:hover {
 .hero-heading, .tagline {
     display: flex;  
     justify-content: flex-end;
-    text-shadow: 0 0 05px #000000;
+    text-shadow: 0 0 03px #000000;
     border-radius: 80px;
     color: white;
 }
