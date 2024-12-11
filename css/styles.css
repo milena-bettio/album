@@ -227,7 +227,6 @@ audio {
 .song-d {
     font-family: var(--accent-font);
     font-size: 20px;
-    /* background-color: var(--accent-colour); */
     color:var(--main-colour);
     padding-bottom: 10px;
 }
