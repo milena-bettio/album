@@ -84,7 +84,7 @@ header a:hover {
     justify-content: flex-end;
     /* text-shadow: 0 0 60px #000000; */
     border-radius: 80px;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 .hero-heading {
     font-size: 110px;
