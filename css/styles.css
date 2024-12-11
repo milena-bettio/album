@@ -4,50 +4,42 @@ html {
     --accent-colour:#f5f7d4;
     --accent-font:"buckley", sans-serif;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family:"pentz-classic";
     src:url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/609a48/00000000000000007735e9f2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
     font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
-    }
-
+}
 @font-face {
 font-family:"buckley";
 src:url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a87813/00000000000000007735a9f0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .centered-content {
     max-width: 900px;
     margin: auto;
 }
-
 .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 38px;
     font-size: 20px;
     color: #000000;
 }
-
 .page-heading {
     font-size: 35px;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family:var(--accent-font)
 }
-
 .logo {
     max-width: 80px;
     max-height: 80px;
     position: absolute;
     margin: 5px;
 }
-
 header {
     height: 100px;
     background-color: var(--main-colour);
@@ -55,30 +47,25 @@ header {
     width: 100%;
     z-index: 999999;
 }
-
 header ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 header li {
     list-style-type: none;
     padding-top: 10px;
     margin-right: 50px;
     margin-top: 30px;
 }
-
 header a {
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
-
 header a:hover {
     color: #193403;
 }
-
 .hero {
     background-image: url(../assets/HollowSparrowHeaderEdited.jpg);
     background-size: cover;
@@ -92,7 +79,6 @@ header a:hover {
     background-position: 0 75; 
     padding-top: 90px;
 }
-
 .hero-heading, .tagline {
     display: flex;  
     justify-content: flex-end;
@@ -105,58 +91,47 @@ header a:hover {
     padding-top: 310px;
     font-family: "pentz-classic", serif;
 }
-
 .tagline {
     font-size: 30px;
     padding-bottom: 180px;
     padding-top: 50px;
     font-family: var(--accent-font);
 }
-
 .intro-t {
     padding-bottom: 50px;
 }
-
 .single {
     background-color: var(--accent-colour);
     display: flex;
 }
-
 .single img{
     width:300px;
 }
-
 .tour-t {
     padding-top: 5px;
     padding-bottom: 50px;
 }
-
 .tour-image {
     max-width: 100%;
     padding-top: 50px;
     padding-bottom: 5px;
 }
-
 audio {
     width: 100%;
 }
-
 .song-content {
     width: 100%;
     text-align: center;
 }
-
 .song-content a:hover {
     color: var(--main-colour);
 
 }
-
 .previous-albums-header {
     padding-top: 50px;
     font-family: var(--accent-font);
     font-size: 30px;
 }
-
 .previous-albums-container {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -165,13 +140,11 @@ audio {
     margin: auto;
     padding-top: 25px;
 }
-
 .pa-button {
     padding: 5px;
     font: var(--accent-font);
     margin: 20px;
 }
-
 .pa-card {
     min-height: 300px;
     min-width: 300px;
@@ -181,14 +154,11 @@ audio {
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-
 .pa-card img {
     max-width: 100%;
     object-fit: cover;
     object-position: center;
 }
-
-
 .tracks-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -206,8 +176,6 @@ audio {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
 .song-content {
     padding: 10px;
     display: flex;
@@ -216,21 +184,18 @@ audio {
     font-family:var(--accent-font);
     font-size: 30px;
 }
-
 .song-name {
     color: black;
     font-family: var(--accent-font);
     font-size: 30px;
     padding-bottom: 5px;
 }
-
 .song-d {
     font-family: var(--accent-font);
     font-size: 20px;
     color:var(--main-colour);
     padding-bottom: 10px;
 }
-
 .album-d {
     background-color: var(--accent-colour);
     padding: 20px;
@@ -238,8 +203,6 @@ audio {
     font-size: 30px;
     line-height: 45px;
 }
-
-
 .grid-container-two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -277,13 +240,13 @@ audio {
 .cart-button {
     color:#7a9d3a; 
     font-weight: 600;
+    padding: 5px;
 }
    
 .merchandise-outro {
     font-size: 20px;
     padding-bottom: 20px;
 }
-
 .footer {
     background-color: var(--main-colour);
     font-size: 16px;
